@@ -38,7 +38,7 @@ const Li = styled.li<{ isActive: boolean }>`
       content: "";
       position: absolute;
       left: 0;
-      bottom: 0;
+      bottom: -2px;
       width: ${(props) => (props.isActive ? "100%" : "0%")};
       height: 2px;
       background-color: #930909;
