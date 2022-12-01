@@ -144,9 +144,9 @@ body::-webkit-scrollbar-track {
   background-color: #ffd78e;
 }
 body::-webkit-scrollbar-thumb {
-  background-color: #e17055;
+  background-color: #930909;
   border-radius: 2px;
 }
 body::-webkit-scrollbar-thumb:hover {
-  background: #ff7675;
+  background: #930909;
 }
