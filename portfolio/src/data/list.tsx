@@ -23,7 +23,7 @@ export interface Iport {
 export const portfolio = [
   {
     id: 100,
-    thumb: "/img/site/site_img43.jpg",
+    thumb: "/img/site/site_img54.jpg",
     link: "http://www.ecorbit.com/kr/index",
     title: "에코비트 홈페이지 구축",
     desc: "#반응형 #구축 #기여도60%",
@@ -32,7 +32,7 @@ export const portfolio = [
   },
   {
     id: 101,
-    thumb: "/img/site/site_img42.jpg",
+    thumb: "/img/site/site_img53.jpg",
     link: "https://www.kgc.co.kr/index.do",
     title: "KGC 인삼공사 운영",
     desc: "#반응형 #운영 #키비주얼변경",
@@ -41,7 +41,7 @@ export const portfolio = [
   },
   {
     id: 102,
-    thumb: "/img/site/site_img41.jpg",
+    thumb: "/img/site/site_img52.jpg",
     link: "https://www.compassion.or.kr/c/2022christian",
     title: "컴패션 캠페인페이지 제작",
     desc: "#반응형 #기여도 100%",
@@ -50,7 +50,7 @@ export const portfolio = [
   },
   {
     id: 104,
-    thumb: "/img/site/site_img40.jpg",
+    thumb: "/img/site/site_img51.jpg",
     link: "https://www.ehyundai.com/newPortal/index.do",
     title: "현대백화점 운영",
     desc: "#웹접근성 #운영 ",

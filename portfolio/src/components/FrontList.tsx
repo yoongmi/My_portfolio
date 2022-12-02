@@ -27,21 +27,29 @@ const FrontList = () => {
 };
 const Listbox = styled.ul`
   margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  @media all and (max-width: 640px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
 `;
 const List = styled.li`
   display: grid;
   grid-template-columns: 1fr 1.5fr;
-  gap: 10px;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
   border: 1px solid #ffd78e;
   background-color: #424242;
   padding: 10px;
-  margin-bottom: 10px;
   color: #fff;
   @media all and (max-width: 420px) {
     grid-template-columns: 1fr;
   }
 `;
-const Img = styled.img``;
+const Img = styled.img`
+  width: 100%;
+`;
 const Text = styled.div`
   padding: 10px 0;
 `;
