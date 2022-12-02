@@ -1,0 +1,60 @@
+.workList {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 30px;
+}
+.workList li {
+  margin-bottom: 20px;
+}
+.workList .img_box {
+  position: relative;
+}
+.workList .txt_box {
+  padding-top: 20px;
+  text-align: center;
+}
+.workList .txt_box h5 {
+  font-size: 1.5em;
+  color: #fff;
+  line-height: 1.3;
+}
+.workList .txt_box p {
+  padding-top: 10px;
+  font-size: 1em;
+  color: #f9f9f9;
+  font-weight: 300;
+  line-height: 1.3;
+}
+.workList .txt_box a {
+  display: inline-block;
+  padding: 5px 15px;
+  border: 1px solid #aaa;
+  margin-top: 15px;
+  font-size: 1em;
+  color: #ddd;
+}
+.workList img {
+  width: 100%;
+}
+.workList i {
+  overflow: hidden;
+  position: absolute;
+  left: 4%;
+  top: 5.3%;
+  width: 92%;
+  height: 68%;
+  background-position: 0 0;
+  transition: background-position 3s ease;
+  background-size: 100% auto;
+  cursor: pointer;
+}
+
+.workList li:hover i {
+  background-position: 0 100%;
+}
+@media all and (max-width: 640px) {
+  .workList {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

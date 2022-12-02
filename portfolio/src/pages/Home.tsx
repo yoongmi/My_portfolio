@@ -12,7 +12,7 @@ const Home = () => {
           <p>Front-end developer 김윤미입니다.</p>
           <span>Thank you for visiting my portfolio site.</span>
           <span>이 포트폴리오는 반응형입니다.</span>
-          <Link to="/work">작업물 보러가기</Link>
+          <Link to="/work/front">작업물 보러가기</Link>
         </div>
         <i className="icon01"></i>
         <i className="icon02"></i>

@@ -6,7 +6,7 @@ import "../style/header.css";
 const Header = () => {
   const homeMatch = useMatch("/");
   const profileMatch = useMatch("/profile");
-  const workMatch = useMatch("/work");
+  const workMatch = useMatch("/work/:cate");
 
   return (
     <header>
@@ -23,7 +23,7 @@ const Header = () => {
           <Link to="/profile">Profile</Link>
         </Li>
         <Li isActive={workMatch !== null}>
-          <Link to="/work">Work</Link>
+          <Link to="/work/front">Work</Link>
         </Li>
       </ul>
     </header>

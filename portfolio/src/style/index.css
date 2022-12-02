@@ -110,6 +110,11 @@ body {
   line-height: 1.2;
   font-size: 14px;
 }
+@media all and (max-width: 640px) {
+  body {
+    font-size: 12px;
+  }
+}
 ol,
 ul {
   list-style: none;
