@@ -24,7 +24,7 @@ const Work = () => {
     <Container>
       <Ul>
         <Li className={Catefront ? "active" : ""}>
-          <Link to="/work/front">프론트엔드</Link>
+          <Link to="/work/front">프론트엔드 ({projectLength})</Link>
         </Li>
         <Li className={Catepub ? "active" : ""}>
           <Link to="/work/pub">퍼블리싱 ({publength})</Link>

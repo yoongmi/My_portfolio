@@ -12,10 +12,10 @@ const WorkList = ({ data, pub }: IData) => {
         {data.map((item: Iport) => (
           <li key={item.id}>
             <div className="img_box">
-              <img src="/img/pc.png" alt="모니터" />
+              <img src="/My_portfolio/img/pc.png" alt="모니터" />
               <i
-                data-src={item.thumb}
-                style={{ backgroundImage: `url(${item.thumb})` }}
+                data-src={"/My_portfolio" + item.thumb}
+                style={{ backgroundImage: `url(/My_portfolio${item.thumb})` }}
               ></i>
             </div>
             <div className="txt_box">

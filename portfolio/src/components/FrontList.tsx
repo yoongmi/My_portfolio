@@ -7,7 +7,7 @@ const FrontList = () => {
       <Listbox>
         {project.map((item: Iproject) => (
           <List key={item.id}>
-            <Img src={item.thumb} alt={item.title} />
+            <Img src={"/My_portfolio" + item.thumb} alt={item.title} />
             <Text>
               <Title>{item.title}</Title>
               <Skills>

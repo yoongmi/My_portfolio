@@ -32,7 +32,7 @@ export const portfolio = [
   },
   {
     id: 101,
-    thumb: "/img/site/site_img53.jpg",
+    thumb: "/img/site/site_img53.JPG",
     link: "https://www.kgc.co.kr/index.do",
     title: "KGC 인삼공사 운영",
     desc: "#반응형 #운영 #키비주얼변경",
@@ -41,7 +41,7 @@ export const portfolio = [
   },
   {
     id: 102,
-    thumb: "/img/site/site_img52.jpg",
+    thumb: "/img/site/site_img52.JPG",
     link: "https://www.compassion.or.kr/c/2022christian",
     title: "컴패션 캠페인페이지 제작",
     desc: "#반응형 #기여도 100%",
@@ -50,7 +50,7 @@ export const portfolio = [
   },
   {
     id: 104,
-    thumb: "/img/site/site_img51.jpg",
+    thumb: "/img/site/site_img51.JPG",
     link: "https://www.ehyundai.com/newPortal/index.do",
     title: "현대백화점 운영",
     desc: "#웹접근성 #운영 ",
@@ -762,7 +762,7 @@ export const portfolio = [
   {
     id: 79,
     thumb: "/img/old/old_img20.jpg",
-    link: "html/omg/index.html",
+    link: "http://yoooong.pe.kr/html/omg/index.html",
     title: "OH MY GIRL",
     desc: "#반응형 #포트폴리오 #2년차",
     class: "my two",
@@ -904,7 +904,7 @@ export const portfolio = [
   {
     id: 96,
     thumb: "/img/old/old_img03.jpg",
-    link: "/html/ticketgo/index.html",
+    link: "http://yoooong.pe.kr/html/ticketgo/index.html",
     title: "티켓고",
     desc: "#티켓예매 #포트폴리오",
     class: "my one",
@@ -913,7 +913,7 @@ export const portfolio = [
   {
     id: 97,
     thumb: "/img/old/old_img02.png",
-    link: "/html/dunkin/index.php",
+    link: "http://yoooong.pe.kr/html/dunkin/index.php",
     title: "던킨도넛",
     desc: "#던킨도넛 #포트폴리오",
     class: "my one",
@@ -922,7 +922,7 @@ export const portfolio = [
   {
     id: 98,
     thumb: "/img/old/old_img01.png",
-    link: "/html/kwater/index.php",
+    link: "http://yoooong.pe.kr/html/kwater/index.php",
     title: "K-water",
     desc: "#첫번째 #포트폴리오",
     class: "my one",

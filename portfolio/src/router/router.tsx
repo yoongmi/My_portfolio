@@ -5,25 +5,31 @@ import Profile from "../pages/Profile";
 import Work from "../pages/Work";
 import ErrorComponent from "../components/ErrorComponent";
 
-const router = createBrowserRouter([
+const router = createBrowserRouter(
+  [
+    {
+      path: "/",
+      element: <App />,
+      errorElement: <ErrorComponent />,
+      children: [
+        {
+          path: "/",
+          element: <Home />,
+          errorElement: <ErrorComponent />,
+        },
+        {
+          path: "/profile",
+          element: <Profile />,
+        },
+        {
+          path: "/work/:cate",
+          element: <Work />,
+        },
+      ],
+    },
+  ],
   {
-    path: "/",
-    element: <App />,
-    errorElement: <ErrorComponent />,
-    children: [
-      {
-        path: "/",
-        element: <Home />,
-      },
-      {
-        path: "/profile",
-        element: <Profile />,
-      },
-      {
-        path: "/work/:cate",
-        element: <Work />,
-      },
-    ],
-  },
-]);
+    basename: "/My_portfolio",
+  }
+);
 export default router;
