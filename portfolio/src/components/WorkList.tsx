@@ -1,11 +1,19 @@
 import "../style/work.css";
 import { Iport } from "../data/list";
+import Popup from "./Popup";
+import { useState } from "react";
 
 interface IData {
   data: Iport[];
   pub: string;
 }
 const WorkList = ({ data, pub }: IData) => {
+  const [popup, setPopup] = useState<boolean>(false);
+  const [imglink, setImglink] = useState<string>("");
+  const handleClick = (e: any) => {
+    setPopup(true);
+    setImglink(e.target.dataset.src);
+  };
   return (
     <>
       <ul className="workList">
@@ -14,6 +22,7 @@ const WorkList = ({ data, pub }: IData) => {
             <div className="img_box">
               <img src="/My_portfolio/img/pc.png" alt="모니터" />
               <i
+                onClick={(e) => handleClick(e)}
                 data-src={"/My_portfolio" + item.thumb}
                 style={{ backgroundImage: `url(/My_portfolio${item.thumb})` }}
               ></i>
@@ -32,6 +41,7 @@ const WorkList = ({ data, pub }: IData) => {
           </li>
         ))}
       </ul>
+      {popup && <Popup imgsrc={imglink} openpop={setPopup} />}
     </>
   );
 };

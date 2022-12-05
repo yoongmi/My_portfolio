@@ -3,11 +3,11 @@ export const pubFilter = [
   { id: 4, cate: "홈페이지", name: "site" },
   { id: 2, cate: "쇼핑몰", name: "shop" },
   { id: 3, cate: "랜딩페이지", name: "land" },
-  { id: 5, cate: "개인프로젝트", name: "my" },
   { id: 9, cate: "4년차", name: "four" },
   { id: 8, cate: "3년차", name: "three" },
   { id: 7, cate: "2년차", name: "two" },
   { id: 6, cate: "1년차", name: "one" },
+  { id: 5, cate: "개인프로젝트", name: "my" },
 ];
 
 export interface Iport {

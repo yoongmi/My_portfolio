@@ -16,6 +16,7 @@ const Profile = () => {
           <ul>
             <li>프론트엔드 개발자입니다. </li>
             <li>커뮤니케이션을 중요시합니다.</li>
+            <li>최적의 사용자 경험을 위해 언제나 고민하고 있습니다.</li>
             <li>
               4년의 퍼블리셔 경력으로 다양한 홈페이지를 제작한 경험이 있습니다.
             </li>
@@ -98,15 +99,31 @@ const Profile = () => {
             <li>
               <b>Skill</b>
               <br />
-              <span>HTML5</span>
-              <span>CSS3</span>
-              <span>Sass</span>
-              <span>Javascript</span>
-              <span>Typescript</span>
-              <span>Jquery</span>
+              <strong>Library , Framework</strong>
+              <br />
               <span>ReactJS</span>
               <span>NextJS</span>
-              <span>WebSocket</span>
+              <span>Jquery</span>
+              <br />
+              <strong>Language</strong>
+              <br />
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>Javascript</span>
+              <span>Typescript</span>
+              <br />
+              <strong>State Management</strong>
+              <br />
+              <span>Recoil</span>
+              <span>Redux</span>
+              <br />
+              <strong>Style</strong>
+              <br />
+              <span>Sass</span>
+              <span>Styled Component</span>
+              <br />
+              <strong>Bundler</strong>
+              <br />
               <span>Webpack</span>
               <span>Babel</span>
               <span>Gulp</span>

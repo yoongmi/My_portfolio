@@ -12,7 +12,7 @@ const Work = () => {
   const Catefront = useMatch("/work/front");
   const Catepub = useMatch("/work/pub");
   const portList = JSON.parse(JSON.stringify(portfolio));
-  const [pub, setPub] = useState("");
+  const [pub, setPub] = useState("four");
   const pubList = portList.filter((item: Iport) => item.class.includes(pub));
   const [pubCatelength, setPubCatelength] = useState<number[]>([]);
   for (let i = 0; i < pubFilter.length; i++) {
