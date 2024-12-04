@@ -24,6 +24,24 @@ export interface Iport {
 
 export const portfolio = [
     {
+        id: 108,
+        thumb: "/img/my/my_2.JPG",
+        link: "https://yoongmi.github.io/My_plugin/gsap/scroll/index.html",
+        title: "GSAP 사용 프로젝트",
+        desc: "#개인프로젝트 #gsap #ScrollTrigger #2024",
+        class: "my",
+        target: "target='_blank'",
+    },
+    {
+        id: 107,
+        thumb: "/img/my/my_1.JPG",
+        link: "https://yoongmi.github.io/My_plugin/index.html",
+        title: "개인 레퍼런스 정리",
+        desc: "#개인프로젝트 #레퍼런스정리 #skin5개 #2023",
+        class: "my",
+        target: "target='_blank'",
+    },
+    {
         id: 100,
         thumb: "/img/site/site_img54.jpg",
         link: "http://www.ecorbit.com/kr/index",
@@ -963,16 +981,6 @@ export const portfolio = [
 
 export const code_portfolio = [
     {
-        id: 413,
-        thumb: "/img/code/markethammer_main.JPG",
-        link: "https://www.markethammer.co.kr/", // 
-        title: "마켓해머 랜딩페이지 제작",
-        state: "",
-        desc: "#제작 #html #기여도100%", //6주
-        class: "",
-        target: "target='_blank'",
-    },
-    {
         id: 411,
         thumb: "/img/code/fnsapp_main.png",
         link: "https://www.fashionandstyle.com/", // 
@@ -981,6 +989,25 @@ export const code_portfolio = [
         desc: "#구축 #사용자화면 #react #javascript #기여도80%", //6주
         class: "",
         target: "target='_blank'",
+    },
+    {
+        id: 401,
+        thumb: "/img/code/danhobak_main.png",
+        link: "https://danhobak.me/",
+        title: "단호박상담소 사용자 구축",
+        state: "mobile",
+        desc: "#구축 #react #javascript #typescript #사용자화면 #퍼블리싱_기여도_100% #프론트개발_기여도_85%", //5주
+        class: "",
+        target: "target='_blank'",
+    },
+    {
+        id: 402,
+        thumb: "/img/code/danhobak_admin.png",
+        link: "",
+        title: "단호박상담소 관리자 구축",
+        state: "",
+        desc: "#구축 #관리자화면 #html #퍼블리싱_기여도_70% #프론트개발_기여도_30% #내부탬플릿사용", //9주
+        class: "target='_blank'",
     },
     {
         id: 410,
@@ -999,6 +1026,16 @@ export const code_portfolio = [
         title: "헤이티타임 관리자 PC",
         state: "",
         desc: "#구축 #관리자화면 #php #기여도60% #내부탬플릿사용", //2주
+        class: "",
+        target: "target='_blank'",
+    },
+    {
+        id: 413,
+        thumb: "/img/code/markethammer_main.JPG",
+        link: "https://www.markethammer.co.kr/", // 
+        title: "마켓해머 랜딩페이지 제작",
+        state: "",
+        desc: "#제작 #html #기여도100%", //6주
         class: "",
         target: "target='_blank'",
     },
@@ -1032,7 +1069,6 @@ export const code_portfolio = [
         class: "",
         target: "target='_blank'",
     },
-
     {
         id: 406,
         thumb: "/img/code/heritage.png",
@@ -1102,25 +1138,6 @@ export const code_portfolio = [
         desc: "#구축 #반응형 #html #기여도50%", //1주
         class: "",
         target: "target='_blank'",
-    },
-    {
-        id: 401,
-        thumb: "/img/code/danhobak_main.png",
-        link: "https://danhobak.me/",
-        title: "단호박상담소 사용자 구축",
-        state: "mobile",
-        desc: "#구축 #react #javascript #typescript #사용자화면 #퍼블리싱_기여도_100% #프론트개발_기여도_85%", //5주
-        class: "",
-        target: "target='_blank'",
-    },
-    {
-        id: 402,
-        thumb: "/img/code/danhobak_admin.png",
-        link: "",
-        title: "단호박상담소 관리자 구축",
-        state: "",
-        desc: "#구축 #관리자화면 #html #퍼블리싱_기여도_70% #프론트개발_기여도_30% #내부탬플릿사용", //9주
-        class: "target='_blank'",
     },
 ]
 
