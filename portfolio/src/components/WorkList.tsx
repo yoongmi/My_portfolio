@@ -19,8 +19,8 @@ const WorkList = ({ data, pub }: IData) => {
       <ul className="workList">
         {data.map((item: Iport) => (
           <li key={item.id}>
-            <div className="img_box">
-              <img src="/My_portfolio/img/pc.png" alt="모니터" />
+            <div className={item.state === "mobile" ? "img_box mo_img_box" : "img_box"}>
+              {item.state === "mobile" ? <img src="/My_portfolio/img/phone.png" alt="모바일" /> : <img src="/My_portfolio/img/pc.png" alt="모니터" />}
               <i
                 onClick={(e) => handleClick(e)}
                 data-src={"/My_portfolio" + item.thumb}

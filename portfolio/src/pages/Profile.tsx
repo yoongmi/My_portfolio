@@ -14,13 +14,12 @@ const Profile = () => {
             <b>저는,</b>
           </p>
           <ul>
-            <li>프론트엔드 개발자입니다. </li>
+            <li>웹 퍼블리셔 입니다. </li>
+            <li>프론트엔드 개발 경험이 있습니다. </li>
             <li>커뮤니케이션을 중요시합니다.</li>
             <li>최적의 사용자 경험을 위해 언제나 고민하고 있습니다.</li>
-            <li>
-              4년의 퍼블리셔 경력으로 다양한 홈페이지를 제작한 경험이 있습니다.
-            </li>
-            <li>새롭게 배우는것을 좋아합니다.</li>
+            <li>6년의 퍼블리셔 경력으로 다양한 홈페이지를 제작한 경험이 있습니다.</li>
+            
           </ul>
         </div>
         <div className="link">
@@ -30,13 +29,7 @@ const Profile = () => {
           <a href="mailto:xduathx@naver.com" target="_blank" rel="noreferrer">
             email
           </a>
-          <a
-            href="https://diamond-cork-0f5.notion.site/Yoonmi-Kim-3bcc31b225f841dd95579ca8415f0fb4"
-            target="_blank"
-            rel="noreferrer"
-          >
-            notion
-          </a>
+          
           <a
             href="https://www.instagram.com/yooong_fly/"
             target="_blank"
@@ -49,6 +42,11 @@ const Profile = () => {
         <div className="list">
           <h4>Career</h4>
           <ul>
+          <li>
+              <b>2023.01 ~ 2024.12</b> 코드아이디어 [웹 퍼블리셔]
+              <br />
+              웹사이트 운영 및 구축, 프론트엔드 개발.
+            </li>
             <li>
               <b>2021.11 ~ 2022.06</b> 펜타브리드 [웹 퍼블리셔]
               <br />
@@ -102,8 +100,8 @@ const Profile = () => {
               <strong>Library , Framework</strong>
               <br />
               <span>ReactJS</span>
-              <span>NextJS</span>
               <span>Jquery</span>
+              <span>Tailwind CSS</span>
               <br />
               <strong>Language</strong>
               <br />
@@ -111,22 +109,6 @@ const Profile = () => {
               <span>CSS3</span>
               <span>Javascript</span>
               <span>Typescript</span>
-              <br />
-              <strong>State Management</strong>
-              <br />
-              <span>Recoil</span>
-              <span>Redux</span>
-              <br />
-              <strong>Style</strong>
-              <br />
-              <span>Sass</span>
-              <span>Styled Component</span>
-              <br />
-              <strong>Bundler</strong>
-              <br />
-              <span>Webpack</span>
-              <span>Babel</span>
-              <span>Gulp</span>
             </li>
             <li>
               <b>Tool</b>

@@ -13,7 +13,7 @@ const Popup = ({ imgsrc, openpop }: Ipopup) => {
     <>
       <Back onClick={handleClick} />
       <Container>
-        <span onClick={handleClick}>CLOSE</span>
+        <span onClick={handleClick}><i></i><i></i></span>
         <Link to={imgsrc.replace("/My_portfolio", "")} target="_blank">
           <img src={imgsrc} alt="큰이미지" />
         </Link>
@@ -38,7 +38,7 @@ const Container = styled.div`
   left: 0;
   top: 0;
   right: 0;
-  width: 70%;
+  width: 75%;
   height: 100vh;
   margin: auto;
   background-color: #000;
@@ -56,18 +56,38 @@ const Container = styled.div`
     background: #333;
   }
   span {
-    position: absolute;
-    right: 10px;
-    top: 10px;
+    position: fixed;
+    right: 15px;
+    top: 15px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    width: 30px; 
     height: 30px;
-    padding: 0 10px;
+    // padding: 0 10px;
     cursor: pointer;
     border-radius: 5px;
-    border: 1px solid #000;
-    background-color: #fff;
+    // border: 1px solid #000;
+    // background-color: #fff;
     text-align: center;
     line-height: 30px;
     box-sizing: border-box;
+
+    & i {
+      display:block; 
+      width:100%; 
+      height:2px; 
+      background-color:#fff;
+
+      &:first-of-type {
+        transform:rotate(45deg) translateY(1px);
+        transform-origin:center;
+      }
+      &:last-of-type {
+        transform:rotate(-45deg) translateY(-1px);
+        transform-origin:center;
+      }
+    }
   }
   a {
     display: block;

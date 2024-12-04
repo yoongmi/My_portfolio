@@ -23,7 +23,7 @@ const Header = () => {
           <Link to="/profile">Profile</Link>
         </Li>
         <Li isActive={workMatch !== null}>
-          <Link to="/work/front">Work</Link>
+          <Link to="/work/pub">Work</Link>
         </Li>
       </ul>
     </header>
