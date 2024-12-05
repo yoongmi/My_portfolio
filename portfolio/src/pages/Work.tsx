@@ -31,10 +31,10 @@ const Work = () => {
                         ))}
                     </Ul>
 
-                    {pub === "four" ? <WorkList data={code_portfolio} pub={pub} /> : <WorkList data={pubList} pub={pub} />}
+                    {pub === "four" ? <WorkList data={code_portfolio} pub={pub} state={true} /> : <WorkList data={pubList} pub={pub} state={true} />}
                 </>
             )}
-            {CatepubGame && <WorkList data={dark} pub={pub} />}
+            {CatepubGame && <WorkList data={dark} pub={pub} state={true} />}
         </Container>
     );
 };

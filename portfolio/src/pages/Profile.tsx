@@ -45,6 +45,7 @@ const Profile = () => {
                                 <br />
                                 - html + Javascript + Jquery 사용하여 퍼블리싱, 프론트개발 진행
                                 <br />- php 환경에서 퍼블리싱 진행
+                                <br />- 내부탬플릿 + Tailwind CSS 사용해 관리자 페이지 진행
                             </p>
                         </li>
                         <li>

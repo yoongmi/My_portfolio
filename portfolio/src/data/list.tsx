@@ -79,7 +79,7 @@ export const portfolio = [
     },
     {
         id: 106,
-        thumb: "/img/site/site_img51.JPG",
+        thumb: "/img/site/site_img55.JPG",
         link: "",
         title: "삼성헬스케어 글로벌 운영",
         desc: "#웹접근성 #운영 #기여도30%",
@@ -982,20 +982,20 @@ export const portfolio = [
 export const code_portfolio = [
     {
         id: 411,
-        thumb: "/img/code/fnsapp_main.png",
+        thumb: "/img/code/fnsapp_main.jpg",
         link: "https://www.fashionandstyle.com/", //
         title: "패션앤스타일 리뉴얼 react",
-        state: "mobile",
+        state: "",
         desc: "#구축 #사용자화면 #react #javascript #기여도80%", //6주
         class: "",
         target: "target='_blank'",
     },
     {
         id: 401,
-        thumb: "/img/code/danhobak_main.png",
+        thumb: "/img/code/danhobak_main.jpg",
         link: "https://danhobak.me/",
         title: "단호박상담소 사용자 구축",
-        state: "mobile",
+        state: "",
         desc: "#구축 #react #javascript #typescript #사용자화면 #퍼블리싱_기여도_100% #프론트개발_기여도_85%", //5주
         class: "",
         target: "target='_blank'",
@@ -1031,7 +1031,7 @@ export const code_portfolio = [
     },
     {
         id: 413,
-        thumb: "/img/code/markethammer_main.JPG",
+        thumb: "/img/code/markethammer_main.jpg",
         link: "https://www.markethammer.co.kr/", //
         title: "마켓해머 랜딩페이지 제작",
         state: "",

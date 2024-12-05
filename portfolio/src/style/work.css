@@ -10,6 +10,33 @@
 .workList .img_box {
     position: relative;
 }
+.workList .img_box i {
+    background-color: #fff;
+}
+.workList .img_box i:hover img {
+    opacity: 0.65;
+}
+.workList .img_box i:before {
+    content: "이미지 보기";
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    font-size: 1.2em;
+    opacity: 0;
+    -webkit-transition: opacity 0.3s;
+    -ms-transition: opacity 0.3s;
+    transition: opacity 0.3s;
+}
+.workList .img_box i:hover:before {
+    opacity: 1;
+}
 .workList .img_box.mo_img_box {
     text-align: center;
 }
@@ -22,6 +49,12 @@
     transform: translateX(-50%);
     background-repeat: no-repeat;
     border-radius: 1.1vw;
+}
+.workList .img_box i img {
+    width: 100%;
+    -webkit-transition: opacity 0.3s;
+    -ms-transition: opacity 0.3s;
+    transition: opacity 0.3s;
 }
 .workList .img_box.mo_img_box img {
     width: 76.3%;
