@@ -791,7 +791,7 @@ export const portfolio = [
     {
         id: 79,
         thumb: "/img/old/old_img20.jpg",
-        link: "http://yoooong.pe.kr/html/omg/index.html",
+        link: "https://yoongmi.github.io/My_project/omg/index.html",
         title: "OH MY GIRL",
         desc: "#반응형 #포트폴리오 #2019",
         class: "my",
@@ -938,7 +938,7 @@ export const portfolio = [
     {
         id: 96,
         thumb: "/img/old/old_img03.jpg",
-        link: "http://yoooong.pe.kr/html/ticketgo/index.html",
+        link: "https://yoongmi.github.io/My_project/ticketgo/index.html",
         title: "티켓고",
         desc: "#티켓예매 #포트폴리오 #2017",
         class: "my",
@@ -947,7 +947,7 @@ export const portfolio = [
     {
         id: 97,
         thumb: "/img/old/old_img02.png",
-        link: "http://yoooong.pe.kr/html/dunkin/index.php",
+        link: "https://yoongmi.github.io/My_project/dunkin/index.html",
         title: "던킨도넛",
         desc: "#던킨도넛 #포트폴리오 #2017",
         class: "my",
@@ -956,7 +956,7 @@ export const portfolio = [
     {
         id: 98,
         thumb: "/img/old/old_img01.png",
-        link: "http://yoooong.pe.kr/html/kwater/index.php",
+        link: "https://yoongmi.github.io/My_project/kwater/index.html",
         title: "K-water",
         desc: "#첫번째 #포트폴리오 #2017",
         class: "my",
