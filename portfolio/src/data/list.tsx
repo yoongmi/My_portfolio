@@ -1,5 +1,5 @@
 export const pubFilter = [
-    { id: 1, cate: "전체", name: "" },
+    // { id: 1, cate: "전체", name: "" },
     { id: 9, cate: "4.코드아이디어", name: "four" },
     { id: 8, cate: "3.펜타브리드", name: "three" },
     { id: 7, cate: "2.비젠소프트", name: "two" },
@@ -970,7 +970,7 @@ export const portfolio = [
 // 헤이티타임 관리자 : 2주
 // 헤이티타임 사용자(pc) : 6주
 // 패션앤스타일 react : 1주
-// 마켓해머 랜딩페이지 
+// 마켓해머 랜딩페이지
 
 // stakeclone : 4주
 // BG.game : 7주
@@ -983,7 +983,7 @@ export const code_portfolio = [
     {
         id: 411,
         thumb: "/img/code/fnsapp_main.png",
-        link: "https://www.fashionandstyle.com/", // 
+        link: "https://www.fashionandstyle.com/", //
         title: "패션앤스타일 리뉴얼 react",
         state: "mobile",
         desc: "#구축 #사용자화면 #react #javascript #기여도80%", //6주
@@ -1012,7 +1012,7 @@ export const code_portfolio = [
     {
         id: 410,
         thumb: "/img/code/heyteetime_main.jpg",
-        link: "https://www.heyteetime.com/", // 
+        link: "https://www.heyteetime.com/", //
         title: "헤이티타임 사용자 PC",
         state: "",
         desc: "#구축 #사용자화면 #php #기여도90%", //6주
@@ -1022,7 +1022,7 @@ export const code_portfolio = [
     {
         id: 409,
         thumb: "/img/code/heyteetime_admin.png",
-        link: "", // 
+        link: "", //
         title: "헤이티타임 관리자 PC",
         state: "",
         desc: "#구축 #관리자화면 #php #기여도60% #내부탬플릿사용", //2주
@@ -1032,7 +1032,7 @@ export const code_portfolio = [
     {
         id: 413,
         thumb: "/img/code/markethammer_main.JPG",
-        link: "https://www.markethammer.co.kr/", // 
+        link: "https://www.markethammer.co.kr/", //
         title: "마켓해머 랜딩페이지 제작",
         state: "",
         desc: "#제작 #html #기여도100%", //6주
@@ -1042,7 +1042,7 @@ export const code_portfolio = [
     {
         id: 416,
         thumb: "/img/code/markethammer_3.jpg",
-        link: "https://www.markethammer.co.kr/main-renew_prev_2409.html", // 
+        link: "https://www.markethammer.co.kr/main-renew_prev_2409.html", //
         title: "마켓해머 랜딩페이지 제작",
         state: "",
         desc: "#반응형 #제작 #html #랜딩페이지 #기여도100%", //1주
@@ -1052,7 +1052,7 @@ export const code_portfolio = [
     {
         id: 408,
         thumb: "/img/code/allfurn_mo_main.png",
-        link: "https://all-furn.com/", // 
+        link: "https://all-furn.com/", //
         title: "올펀 사용자 MO",
         state: "mobile",
         desc: "#구축+유지보수 #사용자화면 #php #기여도70% #mo", //6주
@@ -1082,7 +1082,7 @@ export const code_portfolio = [
     {
         id: 415,
         thumb: "/img/code/markethammer_2.jpg",
-        link: "https://www.markethammer.co.kr/main-renew_prev_2403.html", // 
+        link: "https://www.markethammer.co.kr/main-renew_prev_2403.html", //
         title: "마켓해머 랜딩페이지 제작",
         state: "",
         desc: "#반응형 #제작 #html #랜딩페이지 #기여도100%", //1주
@@ -1102,7 +1102,7 @@ export const code_portfolio = [
     {
         id: 414,
         thumb: "/img/code/markethammer_1.jpg",
-        link: "https://www.markethammer.co.kr/main-renew_prev_2401.html", // 
+        link: "https://www.markethammer.co.kr/main-renew_prev_2401.html", //
         title: "마켓해머 랜딩페이지 제작",
         state: "",
         desc: "#반응형 #제작 #html #랜딩페이지 #기여도100%", //1주
@@ -1139,13 +1139,13 @@ export const code_portfolio = [
         class: "",
         target: "target='_blank'",
     },
-]
+];
 
 export const dark = [
     {
         id: 6,
         thumb: "/img/code/game/vbet_main.JPG",
-        link: "https://design07.codeidea.io/vbet/link.php", // 
+        link: "https://design07.codeidea.io/vbet/link.php", //
         title: "vbet clone",
         state: "",
         desc: "#제작 #html #기여도100% #내부탬플릿사용", //6주
@@ -1155,7 +1155,7 @@ export const dark = [
     {
         id: 5,
         thumb: "/img/code/game/luckyblock_main.JPG",
-        link: "https://design07.codeidea.io/luckyblock/link.php", // 
+        link: "https://design07.codeidea.io/luckyblock/link.php", //
         title: "luckyblock clone",
         state: "",
         desc: "#제작 #html #기여도100% #내부탬플릿사용", //6주
@@ -1165,7 +1165,7 @@ export const dark = [
     {
         id: 4,
         thumb: "/img/code/game/vave_main.JPG",
-        link: "https://design07.codeidea.io/vave/link.php", // 
+        link: "https://design07.codeidea.io/vave/link.php", //
         title: "vave clone",
         state: "",
         desc: "#제작 #html #기여도100% #내부탬플릿사용", //7주
@@ -1175,7 +1175,7 @@ export const dark = [
     {
         id: 3,
         thumb: "/img/code/game/k8_main.JPG",
-        link: "https://design07.codeidea.io/k8/link.php", // 
+        link: "https://design07.codeidea.io/k8/link.php", //
         title: "k8 clone",
         state: "",
         desc: "#제작 #html #기여도100% #내부탬플릿사용", //4주
@@ -1185,7 +1185,7 @@ export const dark = [
     {
         id: 2,
         thumb: "/img/code/game/bcgame_main.JPG",
-        link: "https://design07.codeidea.io/bcGame/link.php", // 
+        link: "https://design07.codeidea.io/bcGame/link.php", //
         title: "BG.game clone",
         state: "",
         desc: "#제작 #html #기여도100% #내부탬플릿사용", //7주
@@ -1195,13 +1195,13 @@ export const dark = [
     {
         id: 1,
         thumb: "/img/code/game/stake_main.JPG",
-        link: "https://design07.codeidea.io/stakeclone/link.php", // 
+        link: "https://design07.codeidea.io/stakeclone/link.php", //
         title: "stake clone",
         state: "",
         desc: "#제작 #html #기여도50% #내부탬플릿사용", //4주
         class: "",
         target: "target='_blank'",
     },
-]
+];
 
 export const publength = portfolio.length;

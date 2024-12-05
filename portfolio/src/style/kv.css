@@ -1,191 +1,191 @@
 .kv {
-  position: relative;
-  overflow: hidden;
-  background-color: #ffd78e;
-  border: 10px solid #fff;
-  min-height: calc(100vh - 57px);
-  box-sizing: border-box;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    position: relative;
+    overflow: hidden;
+    background-color: #ffd78e;
+    border: 10px solid #fff;
+    min-height: calc(100vh - 57px);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .textArea {
-  position: relative;
-  z-index: 10;
-  text-align: center;
-  padding: 50px 0;
+    position: relative;
+    z-index: 10;
+    text-align: center;
+    padding: 50px 0;
 }
 .textArea img {
-  width: 150px;
-  margin: 20px 0;
-  border-radius: 50%;
+    width: 150px;
+    margin: 20px 0;
+    border-radius: 50%;
 }
 .textArea h3,
 .textArea p,
 .textArea span {
-  font-size: 2em;
-  font-weight: bold;
-  color: #fff;
-  text-shadow: 0px 0px 3px #e17055;
+    font-size: 2em;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 0px 0px 3px #e17055;
 }
 .textArea p {
-  font-size: 1.5em;
-  font-weight: 600;
-  line-height: 1.4;
+    font-size: 1.5em;
+    font-weight: 600;
+    line-height: 1.4;
 }
 .textArea span {
-  display: block;
-  margin-top: 10px;
-  font-weight: 400;
-  font-size: 1em;
-  color: #fff;
+    display: block;
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 1em;
+    color: #fff;
 }
 .textArea a {
-  display: inline-block;
-  margin-top: 2em;
-  padding: 7px 20px;
-  background-color: #930909;
-  color: #fff;
-  line-height: 1.5;
-  font-size: 1em;
-  transition: all 0.5s;
+    display: inline-block;
+    margin-top: 2em;
+    padding: 7px 20px;
+    background-color: #930909;
+    color: #fff;
+    line-height: 1.5;
+    font-size: 1em;
+    transition: all 0.5s;
 }
 .textArea a:hover {
-  color: #333;
-  background-color: #ffd78e;
+    color: #333;
+    background-color: #ffd78e;
 }
 .kv > i {
-  opacity: 0.6;
+    opacity: 0.6;
 }
 .kv .icon01 {
-  position: absolute;
-  left: -5%;
-  top: 10%;
-  display: block;
-  width: 500px;
-  height: 500px;
-  border-radius: 50% 40%;
-  background-color: #d4ddff;
-  animation: bouncy01 10s infinite alternate-reverse linear;
+    position: absolute;
+    left: -5%;
+    top: 10%;
+    display: block;
+    width: 500px;
+    height: 500px;
+    border-radius: 50% 40%;
+    background-color: #d4ddff;
+    animation: bouncy01 10s infinite alternate-reverse linear;
 }
 .kv .icon02 {
-  position: absolute;
-  right: -1%;
-  top: 10%;
-  display: block;
-  width: 100px;
-  height: 100px;
-  border-radius: 45% 50%;
-  background-color: #feffd696;
-  animation: bouncy02 6s infinite alternate linear;
-}
-.kv .icon03 {
-  z-index: 1;
-  position: absolute;
-  right: 10%;
-  top: 10%;
-  display: block;
-  width: 300px;
-  height: 300px;
-  border-radius: 50% 40%;
-  background-color: #ffb4b4;
-  animation: bouncy03 8s infinite alternate linear;
-}
-.kv .icon04 {
-  position: absolute;
-  left: 60%;
-  bottom: -20%;
-  display: block;
-  width: 600px;
-  height: 600px;
-  border-radius: 50% 40%;
-  background-color: #c4efd7eb;
-  animation: bouncy04 10s infinite alternate linear;
-}
-@keyframes bouncy01 {
-  0% {
-    left: -10%;
-    top: -10%;
-  }
-  25% {
-    left: 5%;
-    top: -5%;
-  }
-  50% {
-    left: -5%;
-    top: 0%;
-  }
-  75% {
-    left: -10%;
-    top: 15%;
-  }
-  100% {
-    left: -5%;
-    top: 10%;
-  }
-}
-@keyframes bouncy02 {
-  0% {
+    position: absolute;
     right: -1%;
     top: 10%;
-  }
-  33% {
-    right: -2%;
-    top: 7%;
-  }
-  66% {
-    right: -4%;
-    top: 3%;
-  }
-  100% {
-    right: 5%;
-    top: 0%;
-  }
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 45% 50%;
+    background-color: #feffd696;
+    animation: bouncy02 6s infinite alternate linear;
 }
-@keyframes bouncy03 {
-  0% {
+.kv .icon03 {
+    z-index: 1;
+    position: absolute;
     right: 10%;
     top: 10%;
-  }
-  50% {
-    right: 5%;
-    top: 20%;
-  }
-  100% {
-    right: 7.5%;
-    top: 15%;
-  }
+    display: block;
+    width: 300px;
+    height: 300px;
+    border-radius: 50% 40%;
+    background-color: #ffb4b4;
+    animation: bouncy03 8s infinite alternate linear;
 }
-@keyframes bouncy04 {
-  0% {
+.kv .icon04 {
+    position: absolute;
     left: 60%;
     bottom: -20%;
-  }
-  50% {
-    left: 40%;
-    bottom: -30%;
-  }
-  100% {
-    left: 30%;
-    bottom: -25%;
-  }
+    display: block;
+    width: 600px;
+    height: 600px;
+    border-radius: 50% 40%;
+    background-color: #c4efd7eb;
+    animation: bouncy04 10s infinite alternate linear;
+}
+@keyframes bouncy01 {
+    0% {
+        left: -10%;
+        top: -10%;
+    }
+    25% {
+        left: 5%;
+        top: -5%;
+    }
+    50% {
+        left: -5%;
+        top: 0%;
+    }
+    75% {
+        left: -10%;
+        top: 15%;
+    }
+    100% {
+        left: -5%;
+        top: 10%;
+    }
+}
+@keyframes bouncy02 {
+    0% {
+        right: -1%;
+        top: 10%;
+    }
+    33% {
+        right: -2%;
+        top: 7%;
+    }
+    66% {
+        right: -4%;
+        top: 3%;
+    }
+    100% {
+        right: 5%;
+        top: 0%;
+    }
+}
+@keyframes bouncy03 {
+    0% {
+        right: 10%;
+        top: 10%;
+    }
+    50% {
+        right: 5%;
+        top: 20%;
+    }
+    100% {
+        right: 7.5%;
+        top: 15%;
+    }
+}
+@keyframes bouncy04 {
+    0% {
+        left: 60%;
+        bottom: -20%;
+    }
+    50% {
+        left: 40%;
+        bottom: -30%;
+    }
+    100% {
+        left: 30%;
+        bottom: -25%;
+    }
 }
 
 @media all and (max-width: 640px) {
-  .kv .icon01 {
-    width: 300px;
-    height: 300px;
-  }
-  .kv .icon02 {
-    width: 50px;
-    height: 50px;
-  }
-  .kv .icon03 {
-    width: 100px;
-    height: 100px;
-  }
-  .kv .icon04 {
-    width: 400px;
-    height: 400px;
-  }
+    .kv .icon01 {
+        width: 300px;
+        height: 300px;
+    }
+    .kv .icon02 {
+        width: 50px;
+        height: 50px;
+    }
+    .kv .icon03 {
+        width: 100px;
+        height: 100px;
+    }
+    .kv .icon04 {
+        width: 400px;
+        height: 400px;
+    }
 }
