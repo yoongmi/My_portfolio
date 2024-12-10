@@ -29,7 +29,6 @@ const WorkList = ({ data, pub, state }: IData) => {
                     if (prevNum >= totalImages) {
                         clearInterval(interval);
                         setIsStarted(false);
-                        console.log("dd");
                         return prevNum;
                     }
                     return prevNum + 1;
@@ -43,7 +42,7 @@ const WorkList = ({ data, pub, state }: IData) => {
     return (
         <>
             <ul className="workList">
-                {arrImg.slice(0, num).map((item: string, index: number) => (
+                {/* {arrImg.slice(0, num).map((item: string, index: number) => (
                     <li key={item}>
                         <div className={data[index].state === "mobile" ? "img_box mo_img_box" : "img_box"}>
                             {data[index].state === "mobile" ? <img src="/My_portfolio/img/phone.png" alt="모바일" /> : <img src="/My_portfolio/img/pc.png" alt="모니터" />}
@@ -63,8 +62,8 @@ const WorkList = ({ data, pub, state }: IData) => {
                             )}
                         </div>
                     </li>
-                ))}
-                {/* {data.map((item: Iport) => (
+                ))} */}
+                {data.map((item: Iport) => (
                     <li key={item.id}>
                         <div className={item.state === "mobile" ? "img_box mo_img_box" : "img_box"}>
                             {item.state === "mobile" ? <img src="/My_portfolio/img/phone.png" alt="모바일" /> : <img src="/My_portfolio/img/pc.png" alt="모니터" />}
@@ -84,7 +83,7 @@ const WorkList = ({ data, pub, state }: IData) => {
                             )}
                         </div>
                     </li>
-                ))} */}
+                ))}
             </ul>
             {popup && <Popup imgsrc={imglink} openpop={setPopup} />}
         </>

@@ -139,6 +139,23 @@ const Profile = () => {
                             <span>PhotoShop</span>
                             <span>Notion</span>
                         </li>
+                        <li>
+                            <b>Plugin</b>
+                            <br />
+                            <span>Swiper</span>
+                            <span>slick</span>
+                            <span>fullPage.js</span>
+                            <span>AOS.js</span>
+                            <span>WOW.js</span>
+                            <span>GSAP</span>
+                            <span>SlickGrid</span>
+                            <span>datepicker</span>
+                            <span>litepicker</span>
+                            <span>daterangepicker</span>
+                            <span>Chart.js</span>
+                            <span>Google Chart.js</span>
+                            <span>Fabric.js</span>
+                        </li>
                     </ul>
                 </div>
             </div>

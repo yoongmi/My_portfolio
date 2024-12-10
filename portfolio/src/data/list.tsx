@@ -46,7 +46,7 @@ export const portfolio = [
         thumb: "/img/site/site_img54.jpg",
         link: "http://www.ecorbit.com/kr/index",
         title: "에코비트 홈페이지 구축",
-        desc: "#반응형 #구축 #기여도60%",
+        desc: "#반응형 #구축 #기여도60% #Fullpage확장프로그램",
         class: "site three",
         target: "target='_blank'",
     },
@@ -64,7 +64,7 @@ export const portfolio = [
         thumb: "/img/site/site_img52.JPG",
         link: "https://www.compassion.or.kr/c/2022christian",
         title: "컴패션 캠페인페이지 제작",
-        desc: "#반응형 #기여도100%",
+        desc: "#반응형 #기여도100% #동적효과 #직접구현",
         class: "land three",
         target: "target='_blank'",
     },
@@ -107,7 +107,7 @@ export const portfolio = [
     {
         id: 3,
         thumb: "/img/site/site_img02.jpg",
-        link: "http://www.smartlasik.co.kr/autodiagnosis/main00.jsp",
+        link: "", //http://www.smartlasik.co.kr/autodiagnosis/main00.jsp
         title: "강남서울밝은안과 진단하기",
         desc: "#반응형 #진단페이지 #기여도100%",
         class: "site two",
@@ -134,7 +134,7 @@ export const portfolio = [
     {
         id: 6,
         thumb: "/img/land/land_img06.jpg",
-        link: "http://interstella.vizensoft.com/",
+        link: "http://interstella.vizensoft.com/", //
         title: "유니클로 이벤트페이지",
         desc: "#랜딩페이지 #반응형 #기여도100%",
         class: "land two",
@@ -143,7 +143,7 @@ export const portfolio = [
     {
         id: 7,
         thumb: "/img/land/land_img09.jpg",
-        link: "http://kita.vizensoft.com/",
+        link: "", //http://kita.vizensoft.com/
         title: "한국무역협회 무역의날",
         desc: "#랜딩페이지 #반응형 #기여도90%",
         class: "land two",
@@ -152,7 +152,7 @@ export const portfolio = [
     {
         id: 8,
         thumb: "/img/site/site_img36.jpg",
-        link: "http://nrf.vizensoft.com/",
+        link: "http://www.kapl-kpa.or.kr/", //http://nrf.vizensoft.com/
         title: "한국법심리학회",
         desc: "#반응형 #기여도80%",
         class: "site two",
@@ -170,7 +170,7 @@ export const portfolio = [
     {
         id: 10,
         thumb: "/img/site/site_img14.jpg",
-        link: "http://koreanfederation.vizensoft.com/",
+        link: "http://koreanfederation.vizensoft.com/", //
         title: "세계한민족연합",
         desc: "#반응형 #기여도80%",
         class: "site two",
@@ -188,7 +188,7 @@ export const portfolio = [
     {
         id: 12,
         thumb: "/img/site/site_img39.jpg",
-        link: "http://www.peacernbd.com/",
+        link: "", //http://www.peacernbd.com/
         title: "평화R&BD",
         desc: "#반응형 #기여도100%",
         class: "site two",
@@ -250,7 +250,7 @@ export const portfolio = [
     {
         id: 19,
         thumb: "/img/site/site_img19.jpg",
-        link: "http://anyangct.vizensoft.com/",
+        link: "http://www.agugarch.com/", //http://anyangct.vizensoft.com/
         title: "안양지역건축사회",
         desc: "#반응형 #기여도50%",
         class: "site two",
@@ -259,7 +259,7 @@ export const portfolio = [
     {
         id: 20,
         thumb: "/img/site/site_img20.jpg",
-        link: "http://antlab.vizensoft.com/",
+        link: "", //http://antlab.vizensoft.com/
         title: "앤트랩",
         desc: "#반응형 #기여도100%",
         class: "site two",
@@ -313,7 +313,7 @@ export const portfolio = [
     {
         id: 26,
         thumb: "/img/site/site_img41.jpg",
-        link: "http://www.dhstudy.co.kr/",
+        link: "", //http://www.dhstudy.co.kr/
         title: "단향스터디카페",
         desc: "#반응형 #랜딩페이지 #기여도100%",
         class: "land two",
@@ -358,7 +358,7 @@ export const portfolio = [
     {
         id: 31,
         thumb: "/img/site/site_img17.jpg",
-        link: "http://www.idoclinic.co.kr/",
+        link: "", //http://www.idoclinic.co.kr/
         title: "아이두한의원",
         desc: "#반응형 #기여도60%",
         class: "site two",
@@ -403,7 +403,7 @@ export const portfolio = [
     {
         id: 36,
         thumb: "/img/site/site_img24.jpg",
-        link: "http://ipkang.vizensoft.com/",
+        link: "", //http://ipkang.vizensoft.com/
         title: "입강",
         desc: "#반응형 #기여도80%",
         class: "site two",
@@ -421,7 +421,7 @@ export const portfolio = [
     {
         id: 38,
         thumb: "/img/site/site_img28.jpg",
-        link: "https://www.navsys-tech.com/",
+        link: "", //https://www.navsys-tech.com/
         title: "지앤지티",
         desc: "#반응형 #기여도100%",
         class: "site two",
@@ -439,7 +439,7 @@ export const portfolio = [
     {
         id: 40,
         thumb: "/img/site/site_img31.jpg",
-        link: "http://www.koreabiofoam.com/",
+        link: "", //http://www.koreabiofoam.com/
         title: "KBF",
         desc: "#반응형 #기여도80%",
         class: "site two",
@@ -466,7 +466,7 @@ export const portfolio = [
     {
         id: 43,
         thumb: "/img/land/land_img01.jpg",
-        link: "http://danal.vizensoft.com/",
+        link: "http://danal.vizensoft.com/", //http://danal.vizensoft.com/
         title: "다날",
         desc: "#랜딩페이지 #반응형 #기여도100%",
         class: "land two",
@@ -475,7 +475,7 @@ export const portfolio = [
     {
         id: 44,
         thumb: "/img/land/land_img02.jpg",
-        link: "http://www.wiselection.co.kr/",
+        link: "", //http://www.wiselection.co.kr/
         title: "와이즈셀렉션",
         desc: "#랜딩페이지 #반응형 #동적효과 #기여도100%",
         class: "land two",
@@ -502,7 +502,7 @@ export const portfolio = [
     {
         id: 47,
         thumb: "/img/land/land_img05.jpg",
-        link: "http://cellq.illglobal.com/",
+        link: "", //http://cellq.illglobal.com/
         title: "아일글로벌",
         desc: "#랜딩페이지 #반응형 #기여도100%",
         class: "land two",
@@ -511,7 +511,7 @@ export const portfolio = [
     {
         id: 48,
         thumb: "/img/land/land_img07.jpg",
-        link: "http://thetwofit.vizensoft.com/",
+        link: "", //http://thetwofit.vizensoft.com/
         title: "팀피에이치",
         desc: "#랜딩페이지 #반응형 #기여도100%",
         class: "land two",
@@ -520,12 +520,13 @@ export const portfolio = [
     {
         id: 49,
         thumb: "/img/land/land_img08.jpg",
-        link: "http://kr.sidrahealth.net/",
+        link: "", //http://kr.sidrahealth.net/
         title: "sidrahealth",
         desc: "#랜딩페이지 #반응형 #기여도100%",
         class: "land two",
         target: "target='_blank'",
     },
+    // http://sdemo.vizensoft.com/theme/
     {
         id: 50,
         thumb: "/img/shop/shop_img01.jpg",
