@@ -77,7 +77,7 @@ const WorkList = ({ data, pub, state }: IData) => {
                             {item.link === "" ? (
                                 ""
                             ) : (
-                                <a href={item.link} target={item.target} rel="noreferrer">
+                                <a href={item.link} target={item.target} rel="noopener noreferrer">
                                     site view
                                 </a>
                             )}
