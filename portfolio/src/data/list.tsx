@@ -1092,7 +1092,7 @@ export const code_portfolio = [
     },
     {
         id: 405,
-        thumb: "/img/code/marketapp_main.JPG",
+        thumb: "/img/code/marketapp_main.jpg",
         link: "", // https://design07.codeidea.io/samsung_admin/link.php
         title: "마켓해머 앱 리뉴얼",
         state: "mobile",
